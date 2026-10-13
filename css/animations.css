@@ -1,0 +1,8 @@
+.maquette .ligne-maquette::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg,transparent,rgba(124,92,255,0.5),transparent);
+  transform:translateX(-100%);
+  animation:shine 2.4s infinite ;
+}
